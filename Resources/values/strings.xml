@@ -1,0 +1,64 @@
+<resources>
+  
+    <string name="app_name">أذكار المسلم</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_azkar">الأذكــار</string>
+    <string name="title_settings">الإعدادات</string>
+  
+    <string name="title_about"> التطبيـق</string>
+    <string name="title_about_note"> تنبيه</string>
+    <string name="details_about_note"> 
+      
+      اذا واجهتك أى مشكلة فى التطبيق أو يوجد لديك أى مقترحات أو اصلاحات قم بالتواصل معنا عبر ضغط على  زر تواصل معنا  وسنقوم باصلاحها وحلها 
+    
+      </string>
+  
+    <string name="details_about">
+    هذا التطبيق (أذكار المسلم) عبارة عن  مُخْتَصَرٌ اخْتَصَرْتُهُ مِنْ كِتَابِ: الذِّكْرُ وَالدُّعَاءُ وَالعِلاَجُ بِالرُّقَى مِنَ الْكِتَابِ وَالسُّنَّةِاخْتَصَرْتُ فِيهِ قِسْمَ الأَذْكَارِ؛ لِيَكُونَ خَفِيفَ الْحَمْلِ فِي الأَسْفَارِ.
+وَقَدِ اقْتَصَرْتُ عَلَى مَتْنِ الذِّكْرِ، .
+وَأَسْأَلُ اللَّهَ - عز وجل - بِأَسْمَائِهِ الْحُسْنَى، وَصِفَاتِهِ الْعُلاَ أَنْ يَجْعَلَهُ خَالِصَاً لِوَجْهِهِ الْكَرِيمِ، وَأَنْ يَنْفَعَنِي بِهِ فِي حَيَاتِي، وَبَعْدَ مَمَاتِي، وَأَنْ يَنْفَعَ بِهِ مَنْ قَرَأَهُ، أَوْ طَبَعَهُ، أَوْ كَانَ سَبَباً فِي نَشْرِهِ؛ إِنَّهُ سُبْحَانَهُ وَلِيُّ ذَلِكَ، وَالْقَادِرُ عَلَيْهِ. وَصَلَّى اللَّهُ وَسَلَّمَ عَلَى نَبِيِّنَا مُحَمَّدٍ، وَعَلَى آلِهِ وَأَصْحَابِهِ، وَمَنْ تَبِعَهُمْ بِإِحْسَانٍ إِلَى يَوْمِ الدِّيْنِ.
+
+  </string>
+
+  <string name="title_notification_azkar">اعدادات التنبيهات بالأذكار</string>
+  <string name="title_notification_naby">اعدادات التنبيهات بالصلاة على النبى</string>
+  <string name="title_notification_estghfar">اعدادات التنبيهات بالإستغفار</string>
+
+  <string name="title_notification_azkar_activation">تفعيل خاصية التنبيهات بالأذكار</string>
+  <string name="title_notification_naby_activation"> تفعيل خاصية الصلاة على النبى</string>
+
+  <string name="title_notification_estghfar_activation"> تفعيل خاصية الإستغفار</string>
+ 
+  <string name="title_notification_repeation">   اختيار معدل ظهور التنبيهات</string>
+
+
+  <string name="title_notification_repeation_15mins">   تنبيه كل ربع ساعة</string>
+  <string name="title_notification_repeation_30mins">   تنبيه كل نصف ساعة</string>
+  <string name="title_notification_repeation_60mins">   تنبيه كل ساعة</string>
+
+  <string name="title_azkar_sabah">أذكــار الصباح</string>
+  <string name="title_azkar_masaa">أذكــار المسـاء</string>
+  <string name="title_azkar_esteqaz">أذكــار الإستيقاظ</string>
+  <string name="title_azkar_noom">أذكــار النوم</string>
+  <string name="title_azkar_masged">أذكــار المسجد</string>
+  <string name="title_azkar_manzel">أذكــار المنزل</string>
+  <string name="title_azkar_khalaa">أذكــار الخلاء</string>
+  
+  <string name="title_azkar_aftersala">أذكــار بعد الصلاة</string>
+  <string name="title_azkar_foodanddrink">أذكــار الطعام والشراب</string>
+  <string name="title_azkar_azaan">أذكــار الأذان</string>
+  <string name="title_azkar_wedoo">أذكــار الوضوء</string>
+  <string name="title_azkar_hegomra">أذكــار الحج والعمرة</string>
+  <string name="title_azkar_khoof">أذكــار الخوف والضيق</string>
+  <string name="title_azkar_tasbeeh">تسابيح متنوعة</string>
+  
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView1"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel1"
+        android:orientation="vertical"
+        android:padding="@dimen/abc_dialog_padding_material"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_background"
+            android:padding="@dimen/abc_action_bar_elevation_material"
+            android:layout_margin="@dimen/abc_action_bar_elevation_material"
+            >
+
+            <Button
+                android:layout_width="fill_parent"
+                android:id="@+id/imgazkar"
+                android:contentDescription="@string/app_name"
+                android:layout_height="wrap_content"
+                android:text="@string/title_azkar"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_text_size_display_1_material" 
+           
+           />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_book"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/app_name" />
+
+        </RelativeLayout>
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:background="@drawable/custom_background"
+                 android:padding="@dimen/abc_action_bar_elevation_material"
+            android:layout_margin="@dimen/abc_action_bar_elevation_material">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:id="@+id/imgsettings"
+                android:contentDescription="@string/app_name"
+                android:layout_height="wrap_content"
+                android:text="@string/title_settings"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_text_size_display_1_material" 
+           
+           />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_book"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/app_name" />
+
+            </RelativeLayout>
+       <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:background="@drawable/custom_background"
+                 android:padding="@dimen/abc_action_bar_elevation_material"
+            android:layout_margin="@dimen/abc_action_bar_elevation_material">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:id="@+id/imgabout"
+                android:contentDescription="@string/app_name"
+                android:layout_height="wrap_content"
+                android:text="@string/title_about"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_text_size_display_1_material" 
+           
+           />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_book"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/app_name" />
+
+            </RelativeLayout>
+       
+      
+  
+      
+        
+    </LinearLayout>
+</ScrollView>
+    

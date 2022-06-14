@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView1"
+    android:scrollbars="none">
+   
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:elevation="@dimen/abc_action_bar_icon_vertical_padding_material"
+    android:padding="@dimen/abc_action_bar_content_inset_material">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:padding="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:elevation="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:background="@android:color/background_light"
+        android:outlineProvider="paddedBounds">
+        <TextView
+            android:text="@string/title_about"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:text="@string/details_about"
+            android:justificationMode="inter_word"
+            android:textAlignment="gravity"
+            android:elegantTextHeight="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:padding="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:elevation="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:background="@android:color/background_light"
+        android:outlineProvider="paddedBounds"
+        android:layout_below="@id/linearLayout1">
+        <TextView
+            android:text="@string/title_about_note"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:textStyle="bold"
+            android:textColor="@android:color/background_dark" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:text="@string/details_about_note"
+            android:justificationMode="inter_word"
+            android:textAlignment="gravity"
+            android:elegantTextHeight="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding_material"
+        android:padding="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:elevation="@dimen/abc_action_bar_overflow_padding_end_material"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:background="@android:color/background_light"
+        android:outlineProvider="paddedBounds"
+        android:layout_below="@id/linearLayout2">
+            <TextView
+                android:text="@string/app_name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center" />
+            <Button
+                android:text="قيم التطبيق"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:background="@drawable/custom_background"
+                android:layout_margin="@dimen/abc_action_bar_elevation_material" />
+            <Button
+                android:text="شارك التطبيق"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+               android:background="@drawable/custom_background"
+                android:layout_margin="@dimen/abc_action_bar_elevation_material" />
+            <Button
+                android:text="تواصل معنا"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3"
+                android:background="@drawable/custom_background"
+                android:layout_margin="@dimen/abc_action_bar_elevation_material" />
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4"
+            android:layout_marginTop="@dimen/abc_action_bar_icon_vertical_padding_material"
+            android:padding="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:layoutDirection="rtl"
+            android:textDirection="rtl"
+            android:elevation="@dimen/abc_action_bar_overflow_padding_end_material"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:background="@android:color/background_light"
+            android:outlineProvider="paddedBounds"
+            android:layout_below="@id/linearLayout3">
+            <TextView
+                android:text="الإصدار: 1.0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"
+                android:textAlignment="center" />
+            <TextView
+                android:text="APPLET Software"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:textSize="@dimen/abc_dialog_padding_material" />
+        </LinearLayout>
+
+</RelativeLayout>
+
+ </ScrollView>
